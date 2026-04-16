@@ -1,0 +1,38 @@
+* {
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha {
+    width: 90%;
+}
+
+.subtitile-h1 {
+    color: rgb(82, 82, 82);
+}
+
+label {
+    color: rgb(82, 82, 82);
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.nome {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.input-name {
+    width: 45%;
+}
+
+.input-email {
+    width: 93%;
+}
+
+.input2 {
+    display: flex;
+    justify-content: end;
+}

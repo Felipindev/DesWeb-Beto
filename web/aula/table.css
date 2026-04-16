@@ -1,0 +1,23 @@
+tr {
+    background-color: rgb(144, 155, 155);
+}
+
+.table {
+    width: 900px;
+    height: 900px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    color: #f8eeee;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+}
+
+.teste {
+    background-color: rgb(71, 35, 35);
+
+}
