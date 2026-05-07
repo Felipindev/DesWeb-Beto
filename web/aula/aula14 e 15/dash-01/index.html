@@ -1,22 +1,156 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Dashboard 01</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
     <div class="container">
-        <header>a</header>
-        <div class="sub-header">
-            <div class="box1">perfil</div>
-            <div class="box2">welcome</div>
+      <header>
+        <div class="header-left">
+          <div class="logo">
+            <span class="material-icons">change_history</span>
+
+            <h2>Material Able</h2>
+          </div>
+
+          <div class="header-icons">
+            <span class="material-icons">menu</span>
+
+            <span class="material-icons">fullscreen</span>
+          </div>
         </div>
-        <div class="box">
-            <aside>b</aside>
-            <main>c</main>
+
+        <div class="header-right">
+          <span class="material-icons notification"
+            >notifications_none</span
+          >
+
+          <div class="user-area">
+            <div class="avatar"></div>
+
+            <div class="user-info">
+              <span>John Doe</span>
+
+              <span class="material-icons">expand_more</span>
+            </div>
+          </div>
         </div>
+      </header>
+
+      <div class="sub-header">
+        <div class="box1">
+          <div class="profile-avatar"></div>
+
+          <div class="profile-name">
+            <span>John Doe</span>
+
+            <span class="material-icons">expand_more</span>
+          </div>
+        </div>
+
+        <div class="box2">
+          <h1>Dashboard</h1>
+
+          <p>Welcome to Material Able</p>
+        </div>
+
+        <div class="breadcrumb">
+          <span class="material-icons">home</span>
+
+          <span>Dashboard</span>
+        </div>
+      </div>
+
+      <main>        
+        <aside class="sidebar">
+          <div class="search-box">
+            <span class="material-icons">search</span>
+
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Search Friend"
+            />
+          </div>
+
+          <div class="menu">
+            <div class="menu-section">
+              <h3>Navigation</h3>
+
+              <ul>
+                <li class="menu-item active">
+                  <span class="material-icons">home</span>
+
+                  <span class="text">Dashboard</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="menu-section">
+              <h3>UI Element</h3>
+
+              <ul>
+                <li class="menu-item">
+                  <span class="material-icons">grid_view</span>
+
+                  <span class="text">Basic</span>
+
+                  <span class="plus">+</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="menu-section">
+              <h3>Forms</h3>
+
+              <ul>
+                <li class="menu-item">
+                  <span class="material-icons">description</span>
+
+                  <span class="text">Form</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="menu-section">
+              <h3>Tables</h3>
+
+              <ul>
+                <li class="menu-item">
+                  <span class="material-icons">table_chart</span>
+
+                  <span class="text">Table</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="menu-section">
+              <h3>Chart And Maps</h3>
+
+              <ul>
+                <li class="menu-item">
+                  <span class="material-icons">bar_chart</span>
+
+                  <span class="text">Charts</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+        <div class="content"></div>
+      </main>
     </div>
-</body>
+  </body>
 </html>
